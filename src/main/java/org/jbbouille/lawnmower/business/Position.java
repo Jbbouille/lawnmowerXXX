@@ -1,9 +1,9 @@
-package org.jbbouille.lawnmower;
+package org.jbbouille.lawnmower.business;
 
 public class Position {
-    final int xAxis;
-    final int yAxis;
-    final CompassPoints compassPoint;
+    public final int xAxis;
+    public final int yAxis;
+    public final CompassPoints compassPoint;
 
     public Position(int xAxis, int yAxis, CompassPoints compassPoint) {
         this.xAxis = xAxis;

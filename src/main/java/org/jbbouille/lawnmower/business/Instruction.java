@@ -1,10 +1,10 @@
-package org.jbbouille.lawnmower;
+package org.jbbouille.lawnmower.business;
 
 import java.util.List;
 
 public class Instruction {
-    final Position position;
-    final List<Direction> directions;
+    public final Position position;
+    public final List<Direction> directions;
 
     public Instruction(Position position, List<Direction> directions) {
         this.position = position;
